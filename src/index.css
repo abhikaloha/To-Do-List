@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none !important;
+}
+
+body {
+    background-color: #f1f2f7;
+}
+
+html {
+    font-size: 11px;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.container-two {
+    border: 1px solid green;
+    width: 29rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 1%;
+}
+
+#header {
+    border: 1px solid dodgerblue;
+    text-align: center;
+    font-size: 1.6rem;
+    padding-bottom: 0.625rem;
+    color: lawngreen;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.data {
+    border: 1px solid black;
+}
+
+.data1 {
+    border: 1px solid seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+.data1 h2 {
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    color: dodgerblue;
+}
+
+.data1:hover {
+    background-color: lightblue;
+}
+
+.buttons {
+    border: 1px solid sienna;
+    display: flex;
+    width: 35px;
+    justify-content: space-between;
+    padding: 0.25rem;
+}
+
+.searchbox {
+    border: 1px solid crimson;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+#inpt {
+    width: 80%;
+    background-color: lightblue;
+}
+
+#btn1 {
+    padding: 0.1875rem;
+    width: 19%;
+    font-size: 0.9375rem;
+    background-color: dodgerblue;
+    color: blue;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    font-weight: 550;
+    border: none;
+}
+
+#btn1:hover {
+    color: chartreuse;
+    background-color: darkturquoise;
+
+}
+
+#edit1 {
+    color: green;
+    background: transparent;
+    border: transparent;
+}
+
+#edit1:hover {
+    color: darkgreen;
+}
+
+#remove1 {
+    color: red;
+    background: transparent;
+    border: transparent;
+    font-size: 1rem;
+}
+
+#remove1:hover {
+    color: darkred;
+}
+
+#remove {
+    border: 1px solid blueviolet;
+    color: #3c4043;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 12rem;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    outline: none;
+    font-weight: 500;
+    fill: currentcolor;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    background-color: #fff;
+    border-radius: 1.84rem;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+#remove:hover {
+    background: #F6F9FE;
+    color: #174ea6;
+}
+
+.remov {
+    border: 1px solid navy;
+    display: flex;
+    padding: 1.125rem;
+    justify-content: center;
+
+}
+
+@media screen and (min-width: 480px) {
+    html {
+        font-size: 15px;
+    }
+
+    .data1 h2 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 912px) {
+    html {
+        font-size: 16px;
+    }
+}
